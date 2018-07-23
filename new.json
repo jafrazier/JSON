@@ -1,10 +1,33 @@
 {
-"company" : {
-  "dc" : { "batman" : {"name" :" a death in the family" ,"image":"https://raw.githubusercontent.com/jafrazier/JSON/master/new.json"},
-          "superman": {"name": "death of superman", "image":"https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Series/5376/5376._SX360_QL80_TTD_.jpg"}
-  },
-  "marvel" : { "xmen" : {"name" :"house of M" ,"image":"https://i.annihil.us/u/prod/marvel/i/mg/4/20/51dd958708c47/background.jpg"},
-          "avenger": {"name": "infinity wars", "image":"https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Series/7109/7109._SX360_QL80_TTD_.jpg"}
+  "company": {
+    "dc": {
+      "batman": {
+        "name": " A death in the family",
+        "image": "https://raw.githubusercontent.com/jafrazier/JSON/master/new.json",
+        "release": "December 1988",
+        "content": "A Death in the Family is a four-issue Batman comic book storyline published by DC Comics. The story was written by Jim Starlin and illustrated by Jim Aparo, while Mike Mignola designed each cover. The story follows Jason Todd/Robin's quest to be reunited with his birth mother after being relieved of his duties by Batman. During his journey, however, the Joker kidnaps and tortures him, eventually killing him. The storyline is notable for its 900 number voting system, in which fans were allowed to call two separate numbers and chose whether Jason would survive the Joker's torture or die."
+
+      },
+      "superman": {
+        "name": "Death of Superman",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Series/5376/5376._SX360_QL80_TTD_.jpg",
+        "release": "December 1992",
+        "content": "The Death of Superman was an American comic book crossover event published by DC Comics in its Superman-related comics. The crossover was devised by editor Mike Carlin and the Superman writing team of Dan Jurgens, Roger Stern, Louise Simonson, Jerry Ordway and Karl Kesel. The Death of Superman began in December 1992 and lasted until October 1993. It was published in Superman, Action Comics, The Adventures of Superman, Superman: The Man of Steel, Justice League America, and Green Lantern. Since its initial publication, the story has been reprinted in various formats and editions."
+      }
+    },
+    "marvel": {
+      "xmen": {
+        "name": "House of M",
+        "image": "https://i.annihil.us/u/prod/marvel/i/mg/4/20/51dd958708c47/background.jpg",
+        "release": "June 2005",
+        "content": "House of M is a 2005 comic book storyline published by Marvel Comics. The storyline consists of a core eight-issue comic book limited series written by Brian Michael Bendis and illustrated by Olivier Coipel, and a number of crossover tie-in books. Its first issue debuted in June 2005 as a follow-up to the events of the Planet X and Avengers Disassembled storylines, in which the mutant superhero Scarlet Witch suffered a mental breakdown and tried to alter the fabric of reality to recreate her lost children. Scarlet Witch's father, Magneto, and her twin brother, Quicksilver, played major roles in the series. Like the 1995–1996 Age of Apocalypse storyline, House of M replaced the Earth-616 as the main reality for a brief time until Scarlet Witch reverts to normal. The events of the storyline were later indicated to have occurred on Earth-58163"
+      },
+      "avenger": {
+        "name": "Infinity Gauntlet",
+        "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/20/51f6911ce3cc3/background.jpg",
+        "release": "July 1991",
+        "content": "The roots of the series date to concepts developed in comics Starlin wrote and drew for Marvel in the 1970s, primarily Thanos and the Infinity Gems. Starlin returned to Marvel in 1990 as the writer for Silver Surfer volume 3 beginning with issue #34, assisted by Lim on pencils. Their storyline developed through the next sixteen issues and the two-issue spin-off limited series Thanos Quest before concluding in The Infinity Gauntlet. Fan-favorite artist Pérez drew the first four issues before his busy schedule and unhappiness with the story led to him being replaced by Lim."
+      }
+    }
   }
-}
 }
