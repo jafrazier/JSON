@@ -1,8 +1,11 @@
-body{
+html{
   background: url('https://i.imgur.com/U0Y2pqS.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  font-family: sans-serif;
+}
+body{
 }
 .navbar {
   background: rgba(0,0,0,.7);
@@ -18,11 +21,17 @@ input[type=submit]:hover {
   border: black 1px solid;
 }
 
+input[type=submit]:focus {
+  background: rgba(0, 0, 0, 0.5);
+  border: black 1px solid;
+}
+
 .container {
   border: black 2px solid;
   height: 92vh;
   margin-top: 10px;
   background: rgba(0,0,0,.7);
+  overflow: scroll;
 }
 
 .content{
@@ -30,11 +39,26 @@ input[type=submit]:hover {
   margin: 10px;
   background: rgba(255,255,255,.5);
   text-align: center;
+  overflow: scroll;
+  color: rgb(29,29,27);
+  font-weight: 500;
+}
+
+.content p {
+  font-size: 20px;
+  text-align: left;
 }
 
 img{
   width: 90%;
   height: 50%;
-  border: black 1px solid;
+}
 
+.bottom-content {
+  width: 98.5%;
+  height: 500px;
+  background: rgba(255,255,255,.5);
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
