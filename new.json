@@ -1,9 +1,10 @@
 {
 "company" : {
-  "dc" : { "batman" : "death in the family", "superman": "death of superman"
+  "dc" : { "batman" : {"name" :" death in the family" ,"image":""},
+          "superman": {"name": "death of superman", "image":""}
   },
-  "marvel": { "xmen" : "house of M", "avengers" : "infinity wars"
-
+  "marvel" : { "xmen" : {"name" :"house of M" ,"image":""},
+          "avenger": {"name": "infinity wars", "image":""}
   }
 }
 }
